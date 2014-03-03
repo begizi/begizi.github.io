@@ -1,0 +1,51 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+$midnight:              #2c3e50;
+$clouds:                #ecf0f1;
+
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+h1, h2, h3 {
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+
+section {
+
+    height: 100%;
+    position: relative;
+    
+
+    &.hello {
+        background-color: $midnight;
+        color: $clouds;
+
+        .padding {
+            padding: 200px;
+        }
+    }
+
+
+
+}

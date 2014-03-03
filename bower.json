@@ -1,0 +1,8 @@
+{
+  "name": "brianegizi-com",
+  "private": true,
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0"
+  },
+  "devDependencies": {}
+}
