@@ -1,10 +1,7 @@
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
 $midnight:              #2c3e50;
 $clouds:                #ecf0f1;
-
-
-@import 'sass-bootstrap/lib/bootstrap';
+$green:                 #5cbf94;
+$text:                  rgba(255,255,255,0.8);
 
 .browsehappy {
     margin: 0.2em 0;
@@ -13,9 +10,14 @@ $clouds:                #ecf0f1;
     padding: 0.2em 0;
 }
 
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
 /* Space out content a bit */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -27,7 +29,26 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 104px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+.align {
+    display: table;
+
+    .center {
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: center; 
+    }
+}
+
+.no-margin {
+    margin: 0;
 }
 
 
@@ -38,12 +59,9 @@ section {
     
 
     &.hello {
-        background-color: $midnight;
-        color: $clouds;
-
-        .padding {
-            padding: 200px;
-        }
+        background-color: $green;
+        color: $text;
+        font-weight: 100;
     }
 
 
